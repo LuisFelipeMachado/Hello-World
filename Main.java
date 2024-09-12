@@ -10,7 +10,6 @@ public class Main {
         int operacao = 2;
         String texto = "Digite";
 
-        //enquanto a operator for diferente de 0 ele permaneça executando, se a operação for 0 ele deve encerrar o programa ( break;)
         while (operacao != 0) {
             System.out.println("Calculadora do Nashville");
             Scanner dadosDeConsole = new Scanner(System.in);
