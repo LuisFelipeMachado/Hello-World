@@ -18,10 +18,7 @@ public class Main {
             System.out.println(texto + " outro numero");
             numero2 = dadosDeConsole.nextInt();
             System.out.println(texto + " a operação: \n" +
-                    "1 - soma\n" +
-                    "2 - subtração\n" +
-                    "3 - divisao\n" +
-                    "4 - multiplicacao");
+                    "1 - soma\n");
             operacao = dadosDeConsole.nextInt();
             if (operacao ==0){
                 break;
@@ -29,16 +26,9 @@ public class Main {
             if (operacao == 1) {
                 resultado = numero1 + numero2;
             }
-            if (operacao == 2) {
-                resultado = numero1 - numero2;
-            }
-            if (operacao == 3) {
-                resultado = numero1 / numero2;
-            }
-            if (operacao == 4) {
-                resultado = numero1 * numero2;
-            } //se a operação for diferente de 1 ou 2 ou 3 ou 4 ele exiba "Operação Invalida"
-            if (operacao != 1 && operacao != 2 && operacao != 3 && operacao != 4) {
+
+            if (operacao != 1 )
+            {
                 System.out.println("Operação Inválida"+"\n\n\n\n\n\n\n");
 
             } else {
